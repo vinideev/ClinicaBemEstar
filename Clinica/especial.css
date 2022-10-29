@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+body {
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+}
+
+* {
+  margin: 0 auto;
+}
+
+.logo {
+  width: 60px;
+  padding: 10px;
+}
+
+.cabecalho {
+  display: flex;
+  background-color: rgb(150, 64, 64);
+  justify-content:space-between;
+  align-items: center;
+  color: whitesmoke;
+  width: 100%;
+  
+}
+
+.link {
+  color: whitesmoke;
+  text-decoration: none;
+  margin: 8px;
+}
+
+.link:hover {
+  background-color: rgb(68, 63, 63);
+  padding: 3px;
+  border-radius: 10px;
+}
+
+img {
+    width: 400px;
+}
+
+.topo-espe {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;  
+}
+
+.p-profissao {
+  border-bottom: 2px solid rgb(150, 64, 64);
+}
+
+.p-texto{
+  width: 80%;
+}
+
+
+
+h3 {
+  margin-top: 30px;
+}
+
+p {
+  margin-top: 30px;
+}
+
+.sessao-link {
+  margin-top: 40px;
+  display: flex;
+}
+
+.sessao-foto {
+  width: 30%;
+}
+
+table {
+  width: 70%;
+}
+
+thead {
+  background-color: rgb(150, 64, 64);
+  color: whitesmoke;
+}
+
+.horario:nth-child(odd) {
+  background-color: rgb(129, 124, 124);
+}
+
+.horario:nth-child(2){
+  background-color: rgb(196, 193, 193);
+}
+
+.rodape-img {
+  width: 50px;
+  padding: 10px;
+}
+
+.rodape {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(150, 64, 64) ;
+  color: white;
+  margin-top: 40px;
+}
+
+@media (max-width: 425px) {
+  .p-profissao {
+      margin: 15px 5px 2px 5px;
+  }
+  .sessao-foto {
+    display: none;
+  }
+  table {
+    width: 100%;
+  }
+}
+
+@media (min-width:426px) and (max-width: 768px) {
+
+}
